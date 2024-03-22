@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial=scale=1">
+        <title>my todo list</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="page">
+            <div class="header">
+                 <h1 class="title">The To-Do App</h1>
+                <h2>Get stuff done</h2>
+            </div>
+            <div class="app-layout">
+                <div class="todo-app">
+                    <div class="inputrow">  
+                        <input type="text" id="input-box" placeholder="enter text">
+                        <button onclick="addTask()">Add</button>
+                    </div>
+                    <div class="incomplete">
+                        <ul id="incomplete-list-container">
+                            <!--<li>task1</li>
+                            <li>task2</li>
+                            <li>task3</li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="completed">
+                    <p class="text">Completed Tasks</p>
+                    <ul id="complete-list-container">
+                       <!---- <li>task 1</li>
+                        <li>task 2</li> -->
+                    </ul>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </div>
+        
+    </body>
+</html>
